@@ -25,6 +25,7 @@
             x:Name="AppsScrollView"
             VerticalScrollBarVisibility="Hidden"
             HorizontalScrollBarVisibility="Hidden"
+            PreviewMouseWheel="AppsScrollView_PreviewMouseWheel"
             >
             <ScrollViewer.Resources>
                 <!--DataTemplate Key gives us ability to access it in xaml code later on-->

@@ -30,7 +30,22 @@
                 <ScrollViewer x:Name="MainScrollViewer"
                               Margin="10"
                               HorizontalScrollBarVisibility="Hidden"
-                              VerticalScrollBarVisibility="Hidden">
+                              VerticalScrollBarVisibility="Hidden"
+                              Loaded="MainScrollViewer_Loaded"
+                              Opacity=".5">
+                    <ScrollViewer.Triggers>
+                        <EventTrigger RoutedEvent="Loaded">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation
+                                        From="0"
+                                        To="1"
+                                        Duration="0:0:03"
+                                        Storyboard.TargetProperty="Opacity"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </ScrollViewer.Triggers>
                     <StackPanel
                         Name="MainHomeStackPane"
                         VerticalAlignment="Top"
@@ -83,6 +98,69 @@
                                        Margin="2"/>
                     </StackPanel>
                 </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Gaming" Name="GamingTab">
+                <StackPanel x:Name="GamingStackPanel">
+                    <Label
+                            HorizontalAlignment="Left"
+                            Margin="10"
+                            Content="Top free games"
+                            FontSize="40"/>
+                    <uc:AppsViewer x:Name="GamingAppsViewer"
+                                       Width="{Binding ElementName=GamingStackPanel, Path=ActualWidth}"
+                                       HorizontalAlignment="Left"
+                                       Margin="2"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Entertainment" Name="EntertainmentTab">
+                <StackPanel x:Name="EntertainmentStackPanel">
+                    <Label
+                            HorizontalAlignment="Left"
+                            Margin="10"
+                            Content="Top free apps"
+                            FontSize="40"/>
+                    <uc:AppsViewer x:Name="EntertainmentAppsViewer"
+                                       Width="{Binding ElementName=GamingStackPanel, Path=ActualWidth}"
+                                       HorizontalAlignment="Left"
+                                       Margin="2"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Productivity" Name="ProductivityTab">
+                <ScrollViewer x:Name="ProductivityScrollViewer"
+                              Margin="10"
+                              HorizontalScrollBarVisibility="Hidden"
+                              VerticalScrollBarVisibility="Hidden">
+                    <StackPanel>
+                        <uc:ProductivityApps x:Name="ProductivityAppsViewer"
+                                       Width="{Binding ElementName=ProductivityScrollViewer, Path=ActualWidth}"
+                                       HorizontalAlignment="Left"
+                                       Margin="2"/>
+                        <Label
+                            HorizontalAlignment="Left"
+                            Content="App specials"
+                            Margin="10"
+                            FontSize="40"/>
+                        <uc:AppsViewer x:Name="SpecialAppsViewer"
+                                       Width="{Binding ElementName=ProductivityScrollViewer, Path=ActualWidth}"
+                                       HorizontalAlignment="Left"
+                                       Margin="2"/>
+                    </StackPanel>
+                </ScrollViewer>
+                
+            </TabItem>
+            <TabItem Header="Deals" Name="DealsTab">
+                <StackPanel x:Name="DealsStackPanel">
+                    <Label
+                            HorizontalAlignment="Left"
+                            Margin="10"
+                            Content="Top Deals"
+                            FontSize="40"/>
+                    <uc:AppsViewer x:Name="DealsAppsViewer"
+                                       Width="{Binding ElementName=DealsStackPanel, Path=ActualWidth}"
+                                       HorizontalAlignment="Left"
+                                       Margin="2"/>
+                </StackPanel>
+                
             </TabItem>
         </TabControl>
     </Grid>

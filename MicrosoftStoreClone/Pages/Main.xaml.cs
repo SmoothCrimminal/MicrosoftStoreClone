@@ -24,5 +24,10 @@ namespace MicrosoftStoreClone.Pages
         {
             InitializeComponent();
         }
+
+        private void MainScrollViewer_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
