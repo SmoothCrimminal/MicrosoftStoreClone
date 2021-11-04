@@ -26,3 +26,7 @@ C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\Us
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\Pages\Main.baml
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\ProductivityApps.baml
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\TopApps.baml
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetailsTitleAndBackground.g.cs
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetailsTitleAndBackground.baml
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\Pages\AppDetails.g.cs
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\Pages\AppDetails.baml
