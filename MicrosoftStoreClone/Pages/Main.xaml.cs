@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MicrosoftStoreClone.UserContols;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,11 +21,26 @@ namespace MicrosoftStoreClone.Pages
     /// </summary>
     public partial class Main : Page
     {
+        public delegate void OnAppClicked(AnApp sender, RoutedEventArgs e);
+        public event OnAppClicked AppClicked;
         public Main()
         {
             InitializeComponent();
+
+            DealsAppsViewer.AppClicked += Curr_AppClicked;
+
+            EntertainmentAppsViewer.AppClicked += Curr_AppClicked;
+            GamingAppsViewer.AppClicked += Curr_AppClicked;
+            FeaturesAppsViewer.AppClicked += Curr_AppClicked;
+            PopularAppsViewer.AppClicked += Curr_AppClicked;
+            Top3AppsViewer.AppClicked += Curr_AppClicked;
+            Top3GamesViewer.AppClicked += Curr_AppClicked;
         }
 
+        private void Curr_AppClicked(AnApp sender, RoutedEventArgs e)
+        {
+            AppClicked(sender, e);
+        }
         private void MainScrollViewer_Loaded(object sender, RoutedEventArgs e)
         {
 

@@ -5,6 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:MicrosoftStoreClone.Pages"
       xmlns:uc="clr-namespace:MicrosoftStoreClone.UserContols"
+      xmlns:ucappdet="clr-namespace:MicrosoftStoreClone.UserContols.AppDetails"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AppDetails">
@@ -34,13 +35,10 @@
                     HorizontalAlignment="Stretch">
 
                     <TabItem Header="Overview">
-                        
-                    </TabItem>
-                    <TabItem Header="Overview">
-
+                        <ucappdet:Overview x:Name="OverviewTabUC"/>
                     </TabItem>
                     <TabItem Header="System Requirements">
-
+                        <ucappdet:Requirements></ucappdet:Requirements>
                     </TabItem>
                     <TabItem Header="Reviews">
 

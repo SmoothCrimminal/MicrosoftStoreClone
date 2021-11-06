@@ -20,6 +20,8 @@ namespace MicrosoftStoreClone.UserContols
     /// </summary>
     public partial class AppDetailsTitleAndBackground : UserControl
     {
+        public delegate void OnBackButtonClicked(object sender, RoutedEventArgs e);
+        public event OnBackButtonClicked BackButtonClicked;
         public AppDetailsTitleAndBackground()
         {
             InitializeComponent();
@@ -27,7 +29,7 @@ namespace MicrosoftStoreClone.UserContols
 
         private void Back_Btn(object sender, RoutedEventArgs e)
         {
-
+            BackButtonClicked(sender, e);
         }
     }
 }

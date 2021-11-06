@@ -30,3 +30,7 @@ C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\Us
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetailsTitleAndBackground.baml
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\Pages\AppDetails.g.cs
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\Pages\AppDetails.baml
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetails\Overview.g.cs
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetails\Overview.baml
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetails\Requirements.g.cs
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetails\Requirements.baml

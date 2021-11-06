@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MicrosoftStoreClone.UserContols;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,29 @@ namespace MicrosoftStoreClone.Pages
     /// </summary>
     public partial class AppDetails : Page
     {
-        public AppDetails()
+        public delegate void OnBackButtonClicked(object sender, RoutedEventArgs e);
+        public event OnBackButtonClicked BackButtonClicked;
+        public delegate void OnAppDetailsAnotherAppClicked(AnApp sender, RoutedEventArgs e);
+        public event OnAppDetailsAnotherAppClicked AppClicked;
+        public AppDetails(AnApp anApp)
         {
             InitializeComponent();
+
+            AppDetailsAndBackgroundUC.AppNameLabel.Content = anApp.AppName;
+            AppDetailsAndBackgroundUC.AppImage.Source = anApp.AppImageSource;
+            AppDetailsAndBackgroundUC.BackButtonClicked += AppDetailsAndBackgroundUC_BackButtonClicked;
+
+            OverviewTabUC.AppClicked += OverviewTabUC_AppClicked;
+        }
+
+        private void OverviewTabUC_AppClicked(AnApp sender, RoutedEventArgs e)
+        {
+            AppClicked(sender, e);
+        }
+
+        private void AppDetailsAndBackgroundUC_BackButtonClicked(object sender, RoutedEventArgs e)
+        {
+            BackButtonClicked(sender, e);
         }
     }
 }
