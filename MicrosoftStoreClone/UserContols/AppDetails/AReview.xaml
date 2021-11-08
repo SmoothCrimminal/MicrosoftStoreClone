@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="MicrosoftStoreClone.UserContols.AppDetails.AReview"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MicrosoftStoreClone.UserContols.AppDetails"
+             mc:Ignorable="d" 
+             Name="AReviewUserControl"
+             Margin="0,15,0,15"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid
+        Width="{Binding ElementName=AReviewUserControl, Path=ActualWidth}"
+        Background="#1F1F1F">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.3*"/>
+            <ColumnDefinition Width="0.7*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0"
+                    Orientation="Horizontal">
+
+            <Label Name="AvatarLabel"
+                   FontSize="14"
+                   Foreground="White"
+                   Content="M"
+                   BorderBrush="White"
+                   BorderThickness="1"
+                   Height="30"
+                   VerticalAlignment="Top"/>
+
+            <StackPanel>
+                <Label Name="ReviewerNameLabel"
+                       FontSize="14"
+                       Foreground="White"
+                       Content="Mike" />
+                <Label
+                    FontSize="12"
+                    Foreground="White"
+                    Content="PC"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel x:Name="StarSP"
+                        Grid.Column="1">
+            <Label Name="NumOfStarsLabel"
+                       FontSize="30"
+                       Foreground="White"
+                       Content="★★★★"/>
+            <Label Name="ReviewTitle"
+                       VerticalAlignment="Top"
+                       FontSize="38"
+                       Foreground="White"
+                       Content="This app is really awesome"/>
+
+            <TextBlock
+                            VerticalAlignment="Top"
+                            FontSize="12"
+                            Foreground="White"
+                            TextWrapping="Wrap"
+                            Margin="2,0,0,0">
+                    Really enjoyed using this app.
+                    Vivamus malesuada luctus rhoncus. Phasellus risus sapien, dapibus et metus vitae, iaculis semper justo. 
+                    Aliquam id nulla mattis, molestie dui ut, dictum diam. Quisque diam urna, tincidunt eget posuere nec, aliquet ut ligula. 
+                    Maecenas auctor urna eros, ut scelerisque urna volutpat nec. Nam laoreet augue id bibendum molestie. 
+                    Pellentesque facilisis dolor vitae justo vehicula semper ut eu odio. Nunc lacinia nisl nec imperdiet sollicitudin.
+            </TextBlock>
+            <Label
+                    VerticalAlignment="Top"
+                    FontSize="12"
+                    Foreground="#434343"
+                    Content="77 out of 87 people found this helpful"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

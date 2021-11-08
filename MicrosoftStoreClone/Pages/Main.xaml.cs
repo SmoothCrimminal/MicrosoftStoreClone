@@ -29,6 +29,8 @@ namespace MicrosoftStoreClone.Pages
 
             DealsAppsViewer.AppClicked += Curr_AppClicked;
 
+            ProductivityAppsViewer.AppClicked += Curr_AppClicked;
+            TopApps.AppClicked += Curr_AppClicked;
             EntertainmentAppsViewer.AppClicked += Curr_AppClicked;
             GamingAppsViewer.AppClicked += Curr_AppClicked;
             FeaturesAppsViewer.AppClicked += Curr_AppClicked;

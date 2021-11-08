@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\App.xaml
-10914045390
+131089925584
 
-14-314291986
-14442487196
-MainWindow.xaml;Pages\AppDetails.xaml;Pages\Main.xaml;UserContols\AnApp.xaml;UserContols\AppDetailsTitleAndBackground.xaml;UserContols\AppDetails\Overview.xaml;UserContols\AppDetails\Requirements.xaml;UserContols\AppsViewer.xaml;UserContols\ProductivityApps.xaml;UserContols\TopApps.xaml;
+171816866680
+16-949493694
+MainWindow.xaml;Pages\AppDetails.xaml;Pages\Main.xaml;UserContols\AnApp.xaml;UserContols\AppDetailsTitleAndBackground.xaml;UserContols\AppDetails\AReview.xaml;UserContols\AppDetails\Overview.xaml;UserContols\AppDetails\Related.xaml;UserContols\AppDetails\Requirements.xaml;UserContols\AppDetails\Reviews.xaml;UserContols\AppsViewer.xaml;UserContols\ProductivityApps.xaml;UserContols\TopApps.xaml;
 
 False
 

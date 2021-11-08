@@ -41,10 +41,10 @@
                         <ucappdet:Requirements></ucappdet:Requirements>
                     </TabItem>
                     <TabItem Header="Reviews">
-
+                        <ucappdet:Reviews></ucappdet:Reviews>
                     </TabItem>
                     <TabItem Header="Related">
-
+                        <ucappdet:Related></ucappdet:Related>
                     </TabItem>
                 </TabControl>
             </Grid>

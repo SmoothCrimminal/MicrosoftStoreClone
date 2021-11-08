@@ -40,6 +40,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -70,11 +72,20 @@
     <Compile Include="UserContols\AppDetailsTitleAndBackground.xaml.cs">
       <DependentUpon>AppDetailsTitleAndBackground.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserContols\AppDetails\AReview.xaml.cs">
+      <DependentUpon>AReview.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserContols\AppDetails\Overview.xaml.cs">
       <DependentUpon>Overview.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserContols\AppDetails\Related.xaml.cs">
+      <DependentUpon>Related.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserContols\AppDetails\Requirements.xaml.cs">
       <DependentUpon>Requirements.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserContols\AppDetails\Reviews.xaml.cs">
+      <DependentUpon>Reviews.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserContols\AppsViewer.xaml.cs">
       <DependentUpon>AppsViewer.xaml</DependentUpon>
@@ -113,11 +124,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UserContols\AppDetails\AReview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserContols\AppDetails\Overview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UserContols\AppDetails\Related.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserContols\AppDetails\Requirements.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserContols\AppDetails\Reviews.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

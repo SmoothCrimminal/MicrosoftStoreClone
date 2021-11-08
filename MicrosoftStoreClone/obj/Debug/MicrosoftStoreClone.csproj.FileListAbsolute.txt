@@ -3,7 +3,6 @@ C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\bin\Debug\Mi
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\bin\Debug\MicrosoftStoreClone.pdb
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\bin\Debug\MiscUtil.dll
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\bin\Debug\MiscUtil.xml
-C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\MicrosoftStoreClone.csproj.AssemblyReference.cache
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\MainWindow.g.cs
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AnApp.g.cs
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\App.g.cs
@@ -34,3 +33,10 @@ C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\Us
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetails\Overview.baml
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetails\Requirements.g.cs
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetails\Requirements.baml
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetails\AReview.g.cs
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetails\Reviews.g.cs
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetails\AReview.baml
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetails\Reviews.baml
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetails\Related.g.cs
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\UserContols\AppDetails\Related.baml
+C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\MicrosoftStoreClone.csproj.CopyComplete
