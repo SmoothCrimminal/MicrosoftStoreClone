@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\App.xaml
-131089925584
+19-1018957352
 
-171816866680
-16-949493694
-MainWindow.xaml;Pages\AppDetails.xaml;Pages\Main.xaml;UserContols\AnApp.xaml;UserContols\AppDetailsTitleAndBackground.xaml;UserContols\AppDetails\AReview.xaml;UserContols\AppDetails\Overview.xaml;UserContols\AppDetails\Related.xaml;UserContols\AppDetails\Requirements.xaml;UserContols\AppDetails\Reviews.xaml;UserContols\AppsViewer.xaml;UserContols\ProductivityApps.xaml;UserContols\TopApps.xaml;
+232005032866
+231056775455
+MainWindow.xaml;Pages\AppDetails.xaml;Pages\Main.xaml;Pages\TopAppsWrapped.xaml;UserContols\AnApp.xaml;UserContols\AppDetailsTitleAndBackground.xaml;UserContols\AppDetails\AReview.xaml;UserContols\AppDetails\Overview.xaml;UserContols\AppDetails\Related.xaml;UserContols\AppDetails\Requirements.xaml;UserContols\AppDetails\Reviews.xaml;UserContols\AppsViewer.xaml;UserContols\HamburgerMenuViews\AllOwnedApps.xaml;UserContols\HamburgerMenuViews\HamburgerMenuApp.xaml;UserContols\HamburgerMenuViews\HamburgerMenuAppList.xaml;UserContols\HamburgerMenuViews\HamburgerMenuHeader.xaml;UserContols\HeaderRightButtons.xaml;UserContols\ProductivityApps.xaml;UserContols\TopApps.xaml;
 
 False
 

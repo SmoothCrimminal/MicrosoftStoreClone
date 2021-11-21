@@ -1,19 +1,21 @@
-﻿<Window x:Class="MicrosoftStoreClone.MainWindow"
+﻿<mah:MetroWindow x:Class="MicrosoftStoreClone.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MicrosoftStoreClone"
+        xmlns:HamburgerMenuView="clr-namespace:MicrosoftStoreClone.UserContols.HamburgerMenuViews"
         xmlns:uc="clr-namespace:MicrosoftStoreClone.UserContols"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         mc:Ignorable="d"
         Title="MainWindow"
-        Name="MainWindowMetro"
         Height="450" Width="800">
     <Grid>
         <Frame Name="MainWindowFrame"
                Loaded="MainWindowFrame_Loaded"
                NavigationUIVisibility="Hidden"
                Width="{Binding ElementName=MainWindowMetro, Path=ActualWidth}"
-               Height="{Binding ElementName=MainWindowMetro, Path=ActualHeight}" />
+               Height="{Binding ElementName=MainWindowMetro, Path=ActualHeight}" 
+               Visibility="Visible"/>
     </Grid>
-</Window>
+</mah:MetroWindow>

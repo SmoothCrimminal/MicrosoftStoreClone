@@ -64,6 +64,7 @@
             <Button x:Name="TopAppsButton"
                     FontSize="18"
                     Grid.Row="0"
+                    Click="TopAppsButton_Click"
                     Grid.Column="0"
                     Margin="2">
                 Top Apps

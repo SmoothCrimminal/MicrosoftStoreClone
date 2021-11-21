@@ -1,8 +1,9 @@
-﻿
-
+﻿C:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\obj\Debug\GeneratedInternalTypeHelper.g.cs
+FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\App.xaml;;
 FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\MainWindow.xaml;;
 FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\Pages\AppDetails.xaml;;
 FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\Pages\Main.xaml;;
+FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\Pages\TopAppsWrapped.xaml;;
 FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\UserContols\AnApp.xaml;;
 FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\UserContols\AppDetailsTitleAndBackground.xaml;;
 FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\UserContols\AppDetails\AReview.xaml;;
@@ -11,6 +12,11 @@ FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\UserContols
 FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\UserContols\AppDetails\Requirements.xaml;;
 FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\UserContols\AppDetails\Reviews.xaml;;
 FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\UserContols\AppsViewer.xaml;;
+FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\UserContols\HamburgerMenuViews\AllOwnedApps.xaml;;
+FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\UserContols\HamburgerMenuViews\HamburgerMenuApp.xaml;;
+FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\UserContols\HamburgerMenuViews\HamburgerMenuAppList.xaml;;
+FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\UserContols\HamburgerMenuViews\HamburgerMenuHeader.xaml;;
+FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\UserContols\HeaderRightButtons.xaml;;
 FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\UserContols\ProductivityApps.xaml;;
 FC:\Users\lataw\source\repos\MicrosoftStoreClone\MicrosoftStoreClone\UserContols\TopApps.xaml;;
 

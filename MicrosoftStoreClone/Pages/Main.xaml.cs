@@ -23,6 +23,12 @@ namespace MicrosoftStoreClone.Pages
     {
         public delegate void OnAppClicked(AnApp sender, RoutedEventArgs e);
         public event OnAppClicked AppClicked;
+
+        public delegate void OnTopAppButtonClicked(object sender, RoutedEventArgs e);
+        public event OnTopAppButtonClicked TopAppButtonClicked;
+
+        public delegate void OnDownloadButtonClicked(object sender, RoutedEventArgs e);
+        public event OnDownloadButtonClicked DownloadButtonClicked;
         public Main()
         {
             InitializeComponent();
@@ -37,11 +43,23 @@ namespace MicrosoftStoreClone.Pages
             PopularAppsViewer.AppClicked += Curr_AppClicked;
             Top3AppsViewer.AppClicked += Curr_AppClicked;
             Top3GamesViewer.AppClicked += Curr_AppClicked;
+
+            TopApps.TopAppButtonClicked += TopApps_TopAppButtonClicked;
+            RightHeaderButtons.HeaderRightDownloadClick += HeaderRightButtons_DownloadsClicked;
         }
 
+        private void HeaderRightButtons_DownloadsClicked(object sender, RoutedEventArgs e)
+        {
+            DownloadButtonClicked(sender, e);
+        }
         private void Curr_AppClicked(AnApp sender, RoutedEventArgs e)
         {
             AppClicked(sender, e);
+        }
+
+        private void TopApps_TopAppButtonClicked(object sender, RoutedEventArgs e)
+        {
+            TopAppButtonClicked(sender, e);
         }
         private void MainScrollViewer_Loaded(object sender, RoutedEventArgs e)
         {
